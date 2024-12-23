@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dar El Jeld</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Dar El Jeld</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-house"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-arrow-down-circle"></i>About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person-lines-fill"></i>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      class="hero"
+      style="
+        background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/24/4a/36/au-coeur-de-la-medina.jpg?w=900&h=500&s=1');
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-center text-white">
+          <h1>Welcome to Dar El Jeld</h1>
+          <a href="#" class="btn btn-primary">Explore Menu</a>
+        </div>
+      </div>
+    </section>
+    <section class="menu py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/5a/75/12/20181103-132442-largejpg.jpg?w=800&h=-1&s=1"
+                class="card-img-top"
+                alt="Menu Item 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Entrées Brik et Salades aux choix</h5>
+                <p class="card-text">Menu saveur tunisien dans la pure tradition et oeuvre d'art culinaire </p>
+                <p class="card-text"><strong>TDN 30.00</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/dc/67/da/caption.jpg?w=1000&h=-1&s=1"
+                class="card-img-top"
+                alt="Menu Item 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Plat principale grand choix</h5>
+                <p class="card-text">Découvrez notre menu d'exception, une symphonie culinaire où chaque plat est une œuvre d'art, élaborée avec passion pour satisfaire les palais les plus fins.</p>
+                <p class="card-text"><strong>TDN 82.00</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/dc/67/db/caption.jpg?w=1000&h=-1&s=1"
+                class="card-img-top"
+                alt="Menu Item 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Salades et cocktails</h5>
+                <p class="card-text">Dégustez l'excellence avec nos cocktails sophistiqués, une symphonie de saveurs dans chaque verre</p>
+                <p class="card-text"><strong>TDN 35.00</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="data:image/jpeg;base64,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8NZEf+XU2bebZt5rpFcz0DaqunH4qqIf9zLphdPjc/k9PwraqCip5auQxjCnjeQ5C5ukWVE4sxXW4kqCzM4YAJ9nSCb5ac9zl2vl6dSnvK/WyRWyno2LS1XVaj/EINmzeuT+SqBZvXpuM+xERQsXrkWkR1FkOeQ6tw58cm6l4iAiIgIiICIiAiIgIiICIiAiIgK1OSOyTU4z3c4yjaojanhEh0uYbncm7nfJm8HVaUFVFSSbQqOGrcejHNmQeYtx8H3LcV2NMQ1o6HuMlOGnTs6YWo2Eexnbf9VWbJ5TqW+F71NVT0g65KiOFviOVo/1VAYyqYau+11SEgTBLUMQSAW0YhYWbNn6+C1M00tQWo5JJn+I5Xlf1d18JrXTOfqIiKVCIiD9qQxCogNy0tHURyOXwizs7ro+iuNFXiJxVdPUMX8OYT/R1zUvQMgLUJlG/wAQk8b+rKs64nWfsuzlNsk13tQyRRlJJQSbZox4mD7iy7cm35dypNbq34txBbtIhdKohH/DmP2of92eXksW63T7VP2g6OlhlMnI5oBeFpCfi7jwz72TVl8mZZ4a5ERSoREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/2Q=="
+              class="img-fluid"
+              alt="About Us"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>
+              DAR EL JELD est un restaurant de cuisine traditionnelle
+              tunisienne, en plein coeur de la médina de Tunis, ouvert en
+              septembre 1989, dans une ancienne demeure familiale. Les
+              propriétaires le gèrent eux mêmes depuis son ouverture.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact py-5">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="info flex">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1597.3999331468794!2d10.1670351420666!3d36.79934857650685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd338af28a2437%3A0x18bef3802ff151b0!2s18-10%20Rue%20Dar%20El%20Jeld%2C%20Tunis!5e0!3m2!1sen!2stn!4v1734941362548!5m2!1sen!2stn"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div>
+          <p>+216 70 016 190</p>
+          <p>5 – 10 Rue Dar El Jeld, Tunis 1006 Tunisie</p>
+          <p>contact@dareljeld.com</p>
+        </div>
+        <p>&copy; 2024 DAR EL JELD. All rights reserved.</p>
+        <div></div>
+
+        <a href="#" class="text-white mx-2"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

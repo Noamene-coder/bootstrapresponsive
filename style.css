@@ -1,0 +1,69 @@
+/* Styles généraux */
+
+.navbar-brand {font-weight: bold;
+     font-size: 30px;}
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Section Hero */
+.hero {
+    background-image: url('path/to/your/image.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Section Menu */
+.menu .card {
+    margin-bottom: 20px;
+}
+
+/* Section About Us */
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Section Contact */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #3c2b2d;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.info {
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  footer > p {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: #e9d6b9;
+    border-radius: 10px;
+    margin: 10px 10px 10px;box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5)
+  }
